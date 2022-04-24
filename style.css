@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto+Mono:wght@500&display=swap");
+
+:root {
+  color: green;
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;
+}
+h1 {
+  place-self: center;
+}
+h1:hover {
+  color: blue;
+}
+
+input {
+  padding: 5px;
+  text-decoration: none;
+  border: 5px solid green;
+  background-color: black;
+  color: green;
+  font-family: "Roboto Mono", monospace;
+}
+
+form {
+  place-self: center;
+}
